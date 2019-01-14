@@ -1,0 +1,280 @@
+.login-top{width:100%}
+.login-top .head-wrap{
+	margin:0 auto;
+	padding:15px 0 5px 0;
+}
+.head-wrap .logo{
+	display:block;
+	float:left;
+	position:static;
+}
+.head-wrap .feedback{
+	color:#666666;
+	float:right;
+	padding:45px 0 0;
+}
+.feedback .link-feedback{
+	color:#666666;
+	font-family:宋体;
+	padding:0 0 0 5px;
+	text-decoration:underline;
+}
+.user_cp{
+	background:#F5F5F5;
+}
+.user_cp .box{
+	background:#fff;
+}
+.user-center .box {
+	padding:0;
+	background: none;
+}
+.user-center .box .hd{
+	background: #fff;
+	border: 0;
+	padding:  16px 20px;
+	margin-bottom: 10px;
+}
+.user-center .box .bd{
+	background: #fff;
+	border: 0;
+	padding:  20px 20px;
+}
+.user-center .box .bd .hd{
+	padding: 0;
+	margin-bottom: 0;
+}
+.user-center .box .bd .child_bd{}
+.user-center .tab_wrapper{
+	border: 0;
+	background: #fff;
+	padding: 10px 20px 15px;
+	margin-bottom: 20px;
+}
+.user-center .tab_wrapper p{}
+.user-center .tab_wrapper .tabs a{
+	padding: 0 6px;
+	margin-right: 20px;
+	}
+.user-center .tab_wrapper .tabs a.current{
+	border-bottom: 3px solid #ed3714;
+	border-top: 0;
+	margin-top: 2px;
+	padding: 0;
+	height: 29px;
+}
+
+.user-center .view_box{
+	border: 0;
+}
+.user-center .view_box .view_title{
+	border: 0;
+	background: #fff;
+	overflow: hidden;
+	padding: 10px 20px 20px;
+}
+.view_box .view_main{
+	clear: both;
+}
+.view_box .view_title li{
+	border-right: 0;
+	height: 25px;
+	line-height: 25px;
+	width: auto;
+	margin-right: 20px;
+	padding: 0 2px;
+}
+.view_box .view_title .current{
+	border-bottom: 3px solid #ed3714;
+	line-height: 25px;
+}
+
+/*会员登陆**/
+.login-warp{
+	padding: 40px 0;
+}
+.login_ads a{
+	display: block;
+	height: 370px;
+	width: 600px;
+	float:left;
+}
+.login_border{
+	background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0; 
+	float: right; 
+	padding: 8px;
+	position: relative;
+}
+.login-main{
+	background: #ffffff none repeat scroll 0 0; 
+	min-height: 334px;
+	 padding-bottom: 20px; 
+	 position: relative; 
+	 width: 330px;
+	}
+.login-main .login-tab{
+	border-bottom: 1px solid #e7e7e7;
+	height: 46px;
+	overflow: hidden;
+	padding-left: 20px;
+	width: 310px;
+}
+.login-main .login-tab li{
+	border-bottom: 1px solid #ffffff; 
+	cursor: pointer; 
+	float: left; 
+	height: 45px; 
+	line-height: 46px; 
+	margin: 0 10px; 
+	text-align: left;
+}
+.login-main .login-tab .login-on{
+	border-bottom: 1px solid #f60 !important;
+	color: #f60;
+	font-size: 14px;
+}
+.login-main .login-tab ul.login-on li{
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+	float: left;
+	height: 45px;
+	line-height: 46px;
+	margin: 0 10px;
+	text-align: center;
+	width: 60px;
+}
+.login-main .login-toreg-btn{
+	position:absolute; 
+	right:30px; 
+	top:14px;
+}
+.login-main .login-toreg-btn a{
+	display: block;
+	padding-right: 20px;
+}
+.login-main .login-toreg-btn em{
+	width:16px; 
+	height:16px; 
+	background:#999; 
+	float:right; 
+	color:#fff; 
+	border-radius:100%; 
+	text-align:center; 
+	line-height:16px; 
+	font-family:'宋体'; 
+	font-weight:bold;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.login-body{
+	overflow: visible; 
+	padding: 5px 30px 0;
+}
+.login-body .form-login{}
+.login-body .form-login input.text{
+	line-height:24px;
+	border: 1px solid #d6d6d6;
+	border-radius: 3px;
+	height: 24px;
+	padding: 5px 0 5px 35px;
+	width: 233px;
+	display: inline-block;
+}
+.login-body .form-login img.captcha{
+	height: 35px;
+}
+.login-body .form-login .text_user:focus,.text_pwd:focus{
+	border: 1px solid rgba(46, 141, 237, 0.5) !important; 
+	box-shadow: 0 0 5px rgba(46, 141, 237, 0.3);
+}
+.login-body .form-login li{
+	margin-top: 20px;
+	position: relative;
+}
+.login-body .form-login li i.ico{
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	display: block;
+}
+.login-body .form-login li i.ico img{
+	width: 20px;
+	height: 20px;
+}
+.login-body .form-login .text4{
+	width:132px !important;
+}
+.login-body .form-login .btn_mfyzm{
+	background: #f0f0f0 none repeat scroll 0 0;
+	border: 1px solid #d6d6d6;
+	border-radius: 3px;
+	cursor: pointer;
+	height: 34px;
+	margin-left: 4px;
+	width: 90px;
+	display: inline-block;
+	text-align: center;
+	line-height: 34px;
+	vertical-align: middle;
+}
+.login-body .form-login .text_captcha{
+	width:133px !important;
+}
+.login-body .form-login .login_btn,.login_btn1{
+	background: #f70 none repeat scroll 0 0; 
+	border: 0 none; 
+	border-radius: 3px; 
+	color: #fff; 
+	cursor: pointer; 
+	font-family: "Microsoft YaHei"; 
+	font-size: 16px; 
+	height: 40px; 
+	width: 270px;
+}
+.login_bottom{
+	margin-top: 15px; 
+	padding: 0 30px;
+}
+.login_bottom h3{
+	color: #999; 
+	font-weight: normal; 
+	margin-bottom: 10px;
+}
+.other-login a{
+	margin-bottom:5px;
+	background: #f3f3f3 none repeat scroll 0 0; 
+	border: 1px solid #e3e3e3; 
+	border-radius: 3px; 
+	display: inline-block; 
+	height: 25px; 
+	line-height: 25px; 
+	margin-right: 10px; 
+	padding: 0 10px; 
+	text-shadow: 0 1px 0 #fff;
+}
+.other-login a i{
+	display: inline-block;
+	background:url("../images/user/login/log_icon.png") no-repeat scroll 0 0;
+	height: 16px;
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 16px;
+}
+.other-login a i.qq{background-position: -16px 0}
+.other-login a i.weixin{background-position: 0 0}
+.other-login a i.sina{background-position: -50px 0;width: 19px}
+.other-login a i.alipay{background-position:-33px 0}
+body .ajax_login_box .layui-layer-content{padding: 0 !important}
+.qiehuan{background: url("../images/user/login/login-code.png") no-repeat scroll right top;bottom: 8px;cursor: pointer;height: 60px;position: absolute;right: 8px;width: 60px;}
+.lyecs-layer .qiehuan{right: 0;bottom: 0;}
+.wechat-login-warp{width: 330px; min-height: 334px;background: #fff ; padding-bottom: 20px;display: none;}
+.qiehuan_current{background-position:left bottom}
+.wechat-login-warp .app_login{padding: 35px 50px 0; position: relative;}
+.wechat-login-warp .app_code{border: 1px solid #e1e1e1; font-size: 0; margin: 15px auto; padding: 10px; width: 155px; height: 155px}
+.wechat-login-warp .app_code img{height: 100%; display: block; background:url('../images/loading6.gif') no-repeat center center; width: 100%;}
+.wechat-login-warp .app_login h2{color: #888; font-family: "Microsoft YaHei"; font-size: 16px; line-height: 32px; text-align: center;}
+.wechat-login-warp .shuaxin{text-align: center;}
+.wechat-login-warp .shuaxin span{background: #f60 none repeat scroll 0 0; border-radius: 3px; color: #fff; cursor: pointer; display: inline-block; line-height: 30px; text-align: center; margin-bottom: 8px; padding: 0 10px; width: 155px;}
+
+
